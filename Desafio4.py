@@ -83,12 +83,7 @@ class TestWaterInReservoir(unittest.TestCase):
         self.assertEqual(water_in_reservoir( [5,4,3,2,1,4,1,2,3,4,5]), 21)
         self.assertEqual(water_in_reservoir( [5,4,3,2,1,10,1,2,3,4,5]), 20)
         
-        
-         
-        
-        
-    
-        
+     
 if __name__ == '__main__':
     
     unittest.main()
