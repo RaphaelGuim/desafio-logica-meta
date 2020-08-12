@@ -28,10 +28,7 @@ def find_indexes(nums,target):
             find = next((num for num in next_nums if num + number == target),False)
             if type(find) == int:             
                 return [nums.index(find),idx]        
-    return False
-
-
-  
+    return False  
  
 
 class Testfind_indexesFunction(unittest.TestCase):
@@ -66,13 +63,6 @@ class Testfind_indexesFunction(unittest.TestCase):
             self.assertEqual(test_list[answer[0]]+test_list[answer[1]], target)             
         else:
             self.assertEqual(answer, False)
-        
-        
-        
-    
-     
-
-     
 
 if __name__ == '__main__':
     
